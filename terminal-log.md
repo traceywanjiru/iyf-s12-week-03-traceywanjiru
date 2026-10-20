@@ -4,3 +4,9 @@
 - `cd my-project`: Changed directory into the newly created `my-project` folder.
 - `touch README.md`: Created an empty `README.md` file inside the `my-project` directory.
 - `ls -R`: Recursively listed all files and directories to verify the structure.
+
+## File Operations
+- `mkdir docs`: Created the missing docs directory.
+- `mv backup.html docs/`: Moved backup.html into the docs directory.
+- `mv index.html home.html`: Renamed index.html to home.html.
+- `rm home.html`: Removed home.html from the directory.
