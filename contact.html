@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tracey Wanjiru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav aria-label="Main navigation">
+        <div class="logo">Tracey Wanjiru</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About Me</a> 
+            <a href="projects.html">Projects</a> 
+            <a href="contact.html" aria-current="page">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>CONTACT ME</h1>
+        <p>Feel free to get in touch with me!</p>
+    </header>
+
+    <main>
+        <div class="card-row">
+            <section class="card" style="flex: 2; min-width: 320px;">
+                <h2>Send me a message</h2>
+                <form action="#" method="post">
+                    <fieldset style="border: 1px solid var(--color-primary-light); padding: 15px; border-radius: 6px; margin-bottom: 15px;">
+                        <legend><b>CONTACT INFORMATION</b></legend>
+                        <p>
+                            <label for="full-name">Full Name:</label><br>
+                            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required style="width: 100%; padding: 8px; margin-top: 4px;">
+                        </p>
+                        <p>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="e.g joepeters@gmail.com" required style="width: 100%; padding: 8px; margin-top: 4px;">
+                        </p>
+                        <p>
+                            <label for="tel">Phone number:</label><br>
+                            <input type="tel" id="tel" name="tel" placeholder="Enter phone number" style="width: 100%; padding: 8px; margin-top: 4px;">
+                        </p>
+                        <p>
+                            <label for="subject">Subject:</label><br>
+                            <select id="subject" name="subject" style="width: 100%; padding: 8px; margin-top: 4px;">
+                                <option>General Inquiry</option>
+                                <option>Support</option>
+                                <option>Feedback</option>
+                            </select>
+                        </p>
+                    </fieldset>
+
+                    <fieldset style="border: 1px solid var(--color-primary-light); padding: 15px; border-radius: 6px;">
+                        <legend><b>YOUR MESSAGE</b></legend>
+                        <p>
+                            <label for="message">Message:</label><br>
+                            <textarea id="message" name="message" placeholder="Enter message here (minimum 50 characters)"
+                                      minlength="50"
+                                      required
+                                      rows="6"
+                                      style="width: 100%; padding: 8px; margin-top: 4px;"></textarea>
+                        </p>
+                        <p style="display: flex; align-items: center; gap: 8px;">
+                            <input type="checkbox" id="checkbox" name="newsletter">
+                            <label for="checkbox">Subscribe to my newsletter</label>
+                        </p>
+                        <br>
+                        <button type="submit" class="btn">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="card" style="flex: 1; min-width: 260px;">
+                <h2>Email Me</h2>
+                <p>
+                    <a href="mailto:traceywanjiru2005@gmail.com">traceywanjiru2005@gmail.com</a>
+                </p>
+
+                <h2>Find Me Online</h2>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="margin-bottom: 8px;">
+                        <a href="https://github.com/traceywanjiru" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 8px;">
+                        <a href="https://www.instagram.com/traceyyverse" target="_blank" rel="noopener noreferrer">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+
+                <h2>Location &amp; Time Zone</h2>
+                <p>Location: Kenya</p>
+                <p>Time zone: East Africa Time (EAT), UTC+3</p>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>About Me</h4>
+                <p>Aspiring cybersecurity specialist and programming student learning how to build clean, accessible web apps.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Email: traceywanjiru2005@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tracey Wanjiru. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
