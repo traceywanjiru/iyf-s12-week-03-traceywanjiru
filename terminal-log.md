@@ -26,6 +26,45 @@
 - `grep -r "button" ./src/`: Recursively searched for the string "button" inside files within the ./src/ folder.
 - `history`: Displayed the history of previously executed terminal commands.
 
+  
+### Terminal Questions Answers
+1. **How many HTML files are in your portfolio project?**
+   - **Command:** `find . -name "*.html" | wc -l`
+   - **Answer:** 9
+
+2. **Which files contain the word "contact"?**
+   - **Command:** `grep -rl "contact" .`
+   - **Answer:**
+     - `./about.html`
+     - `./contact.html`
+     - `./index.html`
+     - `./projects.html`
+     - `./iyf-s12-week-03-traceywanjiru/about.html`
+     - `./iyf-s12-week-03-traceywanjiru/contact.html`
+     - `./iyf-s12-week-03-traceywanjiru/index.html`
+     - `./iyf-s12-week-03-traceywanjiru/projects.html`
+
+3. **How many lines is your CSS file?**
+   - **Command:** `wc -l style.css`
+   - **Answer:** 206 lines
+
+4. **What were your last 10 terminal commands?**
+   - **Command:** `history | tail -10`
+   - **Answer:**
+     ```
+     head -10 styles.css
+     -10 styles.css
+     tail -10 styles.css
+     wc index.html
+     wc -l index.html
+     cd "/c/PROGRAMMING CLASS IYF/iyf-s12-week-03-traceywanjiru"
+     find . -name "*.html" | wc -l
+     grep -rl "contact" .
+     wc -l style.css
+     history | tail -10
+     ```
+  
+
 #### View and Edit
 - `head -10 styles.css`: Displayed the first 10 lines of styles.css.
 - `tail -10 styles.css`: Displayed the last 10 lines of styles.css.
