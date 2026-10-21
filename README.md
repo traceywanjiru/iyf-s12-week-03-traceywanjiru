@@ -36,7 +36,16 @@ What did you learn while building this project?
 
 ## Challenges Faced
 
-What problems did you encounter and how did you solve them?
+### Resolving a Merge Conflict in `about.html`
+
+**What conflicted:** When doing Task 6.2 (Branching & Merging), a conflict occurred in `about.html` when merging `branch-beta` into `main` after `branch-alpha` had already been merged. Both branches modified the exact same line of text (`<h1>About Me...</h1>`) differently, causing Git to pause the merge.
+
+**How I resolved it:**
+
+1. Opened `about.html` in VS Code to inspect the conflict markers (`<<<<<<<`, `=======`, and `>>>>>>>`).
+2. Manually edited the file to keep the correct header content and deleted the git conflict markers.
+3. Staged the resolved file using `git add about.html`.
+4. Completed the merge using the required commit message: `Fix: resolve merge conflict in about.html`.
 
 ## Collaboration (required in Weeks 0, 3 and 7; omit on other solo weeks)
 
