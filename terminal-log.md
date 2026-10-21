@@ -18,3 +18,16 @@
 - `mv src-backup/ archive/`: Renamed/moved the `src-backup` directory to `archive`.
 - `mkdir empty-folder && rmdir empty-folder/`: Created and deleted an empty directory using `rmdir`.
 - `rm -r archive/`: Recursively deleted the `archive` directory along with its contents.
+
+### Task 5.3: Useful Terminal Commands
+#### Search and Find
+- `find . -name "*.html"`: Found all .html files in the current directory and subdirectories.
+- `grep "class" index.html`: Searched for matching lines containing "class" inside index.html.
+- `grep -r "button" ./src/`: Recursively searched for the string "button" inside files within the ./src/ folder.
+- `history`: Displayed the history of previously executed terminal commands.
+
+#### View and Edit
+- `head -10 styles.css`: Displayed the first 10 lines of styles.css.
+- `tail -10 styles.css`: Displayed the last 10 lines of styles.css.
+- `wc index.html`: Outputted line, word, and byte counts for index.html.
+- `wc -l index.html`: Displayed only the total line count of index.html.
