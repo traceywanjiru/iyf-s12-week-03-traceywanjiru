@@ -19,4 +19,4 @@ cat << 'EOF' > "$FILENAME"
 </html>
 EOF
 
-echo "Boilerplate $FILENAME created successfully!"
+echo "Boilerplate $FILENAME created successfully!" 
