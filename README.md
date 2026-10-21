@@ -73,15 +73,6 @@ iyf-s12-week-03-traceywanjiru/
 3. Staged the resolved file using `git add about.html`.
 4. Completed the merge using the required commit message: `Fix: resolve merge conflict in about.html`.
 
-## Collaboration (required in Weeks 0, 3 and 7; omit on other solo weeks)
-
-- **Team / partner:** [@partner](https://github.com/partner)
-- **Shared repo:** https://github.com/...
-- **PR I opened:** https://github.com/.../pull/N
-- **PR I reviewed:** https://github.com/.../pull/N
-- **Merge conflict I resolved** (Weeks 0 and 3): https://github.com/.../pull/N
-  (Collaboration happens outside this repository. It is marked **only** from these links — the marker does not search the shared repo for your work. Every link must point to something authored by your own GitHub account.)
-
 ## License
 
 This project is open source and available under the MIT License.
