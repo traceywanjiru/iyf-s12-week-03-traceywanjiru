@@ -12,3 +12,9 @@
 - `mv backup.html docs/`: Moved backup.html into the docs directory.
 - `mv index.html home.html`: Renamed index.html to home.html.
 - `rm home.html`: Removed home.html from the directory.
+
+### Exercise 2: Working with Directories
+- `cp -r src/ src-backup/`: Recursively copied the `src` directory to `src-backup`.
+- `mv src-backup/ archive/`: Renamed/moved the `src-backup` directory to `archive`.
+- `mkdir empty-folder && rmdir empty-folder/`: Created and deleted an empty directory using `rmdir`.
+- `rm -r archive/`: Recursively deleted the `archive` directory along with its contents.
